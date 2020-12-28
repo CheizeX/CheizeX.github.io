@@ -1,0 +1,148 @@
+.section-temas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .h5-container{
+        width: 288px;
+        height: 84px;
+        margin-bottom: 24px
+    }
+    
+    h5{
+        @extend %headlines; 
+        padding-left:16px ;
+        text-align: left;
+        color: $font-color-1;
+    }
+
+    div{
+        text-align: center;
+        height: 130px;
+        width: $general-width; 
+
+        .icon{
+            width: $general-width;
+            height: 130px;
+        }
+
+        p{
+            @extend %headlines;
+            line-height: 36px;
+            font-size: 24px;
+            font-weight: 500 ;
+        }
+
+        img{
+            padding-top: 13px;
+            width: 104px;
+            height: 104px;
+        }
+
+        &.p{
+            width: 288px;
+            height: 32px;
+        }
+
+        &.p.grande{
+            height: 64px;
+        }  
+
+        &.p.tr{
+            margin-bottom: 36px;
+        }  
+
+        &.p.rlp, &.p.bdc{
+            margin-bottom: 52px;
+        }
+
+        &.p.si{
+            margin-bottom: 42px;
+        }
+    }
+}
+
+//////////
+
+@media screen and (min-width: 730px){
+    .section-temas{
+        width: 1440px;
+        height: 170px;
+        display: block;
+        flex-direction: row;
+
+        .icon{
+            height: 104px;
+            width: 104px;
+        }
+    
+        .h5-container{
+            position: relative;
+            left: 180px;
+            top: 24px;
+            width: 626px;
+            height: 62px;
+            margin-bottom: 24px
+        }
+        
+        h5{
+            font-size: 48px;
+            text-align: center;            
+        }
+
+        .icon{
+            position: relative;   
+
+            &.one{             
+                left:280px;  
+                top: 53px;        
+            }
+
+            &.two{             
+                top: -90px;
+                left: 530px;        
+            }
+
+            &.three{             
+                top: -310px;
+                left: 800px;         
+            }
+
+            &.four{             
+                top: -495px;
+                left: 1050px; 
+            }
+        }
+
+        .p{
+            position: relative; 
+            display: inline; 
+            font-size: 24px;
+            
+            &.tr{
+                left: -390px;
+                top: 100px;
+            }
+
+            &.rlp{
+                display: inline-block;
+                width: 150px;
+                left: 510px;
+                top: -40px;
+            }
+
+            &.bdc{
+                display: inline-block;
+                left: 710px;
+                top: -260px;
+            }
+
+            &.si{
+                display: inline-block;
+                width: 150px;
+                left: 1030px;
+                top: -447px;
+            }
+        }
+    }
+}

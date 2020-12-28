@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acámica | PROYECTO 1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/scss/style.css">
+</head>
+<body>
+    <header class="hamb-menu">
+        <figure class="logo-container">
+            <img src="/images/logo.svg" alt="logo"> 
+        </figure>
+        <input type="checkbox">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+        <nav>
+            <ul>
+                <li><a href="#section-episodios">EPISODIOS</a></li>
+                <li><a href="#section-venimos">NOSOTROS</a></li>
+                <li><a href="#section-estelares">ENTREVISTAS</a></li>
+                <li><a href="#section-temas">TÓPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section-hello">
+            <h1 class="h-1">Hello </h1><h1 class="h-2">world</h1><h1 class="h-3">pale blue dot</h1><h1 class="h-4">.</h1>         
+            <div class="div-p">
+                <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            </div>
+            <button>CONOCÉ MÁS</button>
+        </section> 
+        <section id="section-episodios" class="section-episodios">
+            <div class="fondo-azul">
+                <h2>Episodios</h2>
+                <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"    allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"    allow="encrypted-media"></iframe>              
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"    allow="encrypted-media"></iframe>
+            </div>
+        </section >  
+        <section class="section-venimos">
+            <figure id="section-venimos"  class="phone" >
+                <img class="img-phone" src="images/phone.png" alt="teléfono con imágen de mujer en computadora, en color blanco y negro">
+            </figure>
+            <div  class="h-container">
+                <h3>De dónde venimos</h3>
+            </div>
+            <div class="p-container">
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.<br>
+                    <br>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                </p>
+            </div>
+        </section>
+        <section id="section-estelares" class="section-estelares">
+            <div>
+                <h4>Invitadas/os estelares</h4>
+            </div>   
+            <figure class="fotos-container">
+                <img class="foto" src="/images/grace-hopper.png" alt="Grace Hopper en blanco y negro">
+                <img class="foto" src="/images/Katie-Bouman.png" alt="Katie Bouman en blanco y negro">
+                <img class="foto" src="/images/Margaret-Hamilton.png" alt="Margaret Hamilton en blanco y negro">
+                <img class="foto" src="/images/An-E.R.A.Univac-1103-computer-in-the-1950s.png" alt="Computadora de 1950 E.R.A. Univac 1103 en blaco y negro">
+                <img class="foto" src="/images/Computer-operators-with-an-Eniac-the-world’s-first-programmable-general-purpose-computer.png" alt="Operadoras con la primer computadora programable, la Eniac, en blanco y negro">
+                <img class="foto" src="/images/susan-kare.png" alt="Susan Kare en blanco y negro">
+            </figure>
+        </section>
+        <section id="section-temas" class="section-temas">
+            <div class="h5-container">
+                <h5>Algunos de nuestros temas</h5>
+            </div> 
+            <div class="icon one">
+                <img src="/images/icon1.svg" alt="ícono referencial al trabajo remoto">
+            </div>
+            <div class="p tr">
+                <p>Trabajo remoto</p>
+            </div>
+            <div class="icon two">
+                <img src="/images/icon2.svg" alt="ícono referencial, cabeza pensando formas de programar">
+            </div>
+            <div class="p grande rlp">
+                <p>Repensado la programación</p>
+            </div>
+            <div class="icon three">
+                <img src="/images/icon3.svg" alt="Computadora con códigos en la pantalla">
+            </div>
+            <div class="p bdc">
+                <p>Bases del código</p>
+            </div>
+            <div class="icon four">
+                <img src="/images/icon4.svg" alt="ícono referencial a bases de datos">
+            </div>
+            <div class="p si">
+                <p>Seguridad informática</p>
+            </div>
+        </section>
+        <section class="section-novedades">
+            <div class="fondo">
+                <div class="h6-container">
+                    <h6>¿Querés las últimas novedades?</h6>
+                </div>
+                <a href="#section-episodios">
+                    <button>ESCUCHÁ LOS EPISODIOS</button>
+                </a>
+                
+            </div>          
+        </section>      
+    </main>
+    <footer>
+        <div class="div-p">
+            <p>© 2019— Hello blue pale dot</p>
+        </div>
+        <div class="div-a">
+            <a href="https://www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://web.telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

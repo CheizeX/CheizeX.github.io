@@ -1,0 +1,19 @@
+main{
+    margin: 0 auto;
+    max-width: $general-width;
+    min-width: $general-width;
+    
+    section{
+        background: $bg-1;
+    }
+}
+
+//////////
+
+@media screen and (min-width: 730px){
+
+    main{ 
+        max-width: 1440px;
+        overflow: hidden;
+    }    
+}

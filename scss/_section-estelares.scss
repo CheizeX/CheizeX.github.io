@@ -1,0 +1,46 @@
+.section-estelares{
+
+    h4{
+        @extend %headlines;     
+        padding-left: 16px;
+        padding-bottom: 14px;
+        color: $font-color-1;
+    }
+
+    .fotos-container{
+        display: flex;
+        flex-direction: column;  
+        padding-bottom: 48px;
+    }
+
+    .foto{
+        width: 320px;
+        height: 243px;
+    }
+}
+
+//////////
+
+@media screen and (min-width: 730px){
+    
+    .section-estelares{
+
+        h4{  
+            padding-left: 200px;
+            padding-top: 64px;
+            padding-bottom: 36px;
+            font-size: 48px;
+        }
+    
+        .fotos-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;  
+        }
+    
+        .foto{
+            width: 480px;
+            height: 364px;
+        }
+    }
+}

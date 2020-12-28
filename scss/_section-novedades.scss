@@ -1,0 +1,70 @@
+.section-novedades{
+
+    @extend %headlines;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: $bg-1;
+
+    button{
+        @extend %button-shared;
+        margin-top: 36px;
+        margin-bottom: 67px;
+    }
+
+    .h6-container{
+        width: 288px;
+        height: 126px;
+        padding-top: 64px;
+        text-align: center;
+    }
+    
+    .fondo{
+        background-image: linear-gradient(225deg, $bg-gradient-1 0%, $bg-gradient-2 100%);
+        clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+        width: $general-width;
+    }
+}
+
+//////////
+
+@media screen and (min-width: 730px){
+
+    .section-novedades{
+        width: 1440px;
+        height: 618px;
+        
+        button{
+            position: absolute;
+            width: 345px;
+            height: 56px;
+            top: 270px;
+            left: 505px;
+            &:hover{
+                box-shadow:  0px 0px 30px 1px $bg-button-hov-2;
+            }
+        }
+
+        a:hover{
+                text-decoration: none;
+                color:$col-claro; 
+        }
+        
+        .h6-container{
+            position: absolute;
+            width: 692px;
+            left: 350px;
+            top: 160px;
+            font-size: 48px;
+        }
+        
+        .fondo{
+            position: absolute;
+            transform: translate(0px, 230px);
+            background-image: linear-gradient(225deg, $bg-gradient-1 0%, $bg-gradient-2 100%);
+            clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+            width: 1440px;
+            height: 515px;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.section-venimos{
+    padding-bottom: 54px;
+    padding-left: 16px;
+    padding-right: 16px; 
+
+    .h-container{
+        width: 288px;
+        height: 84px;
+
+        h3{            
+            @extend %headlines; 
+            color: $font-color-1;
+        }
+    }
+    
+    .p-container{
+
+        p{
+            @extend %paragraph;       
+            width: 288px;
+            height: 254px;
+            margin-top: 8px;
+        }
+    }
+
+    .img-phone{
+        width: 340px;
+        height: 519px;
+    }
+
+    .phone{
+        height: 450px;
+        transform: translate(-25px, -95px);
+    }
+}
+
+//////////
+
+@media screen and (min-width: 730px){
+
+    .section-venimos{
+        display: flex;
+
+        .h-container{
+            width: 399px;
+            transform: translate(240px, 60px);
+            
+            h3{
+                font-size: 48px;
+            }
+        }
+
+        .p-container{
+            transform: translate(-160px, 130px);
+            
+            p{
+                width: 464px;
+                height: 204px;
+                font-size: 16px;
+            }
+        }
+
+        .img-phone{
+            width: 458px;
+            height: 660px;
+        }
+
+        .phone {
+            transform: translate(180px, -140px);
+        }
+    }
+}

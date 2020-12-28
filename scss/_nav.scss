@@ -1,0 +1,148 @@
+header{
+    background: $bg-1;
+    align-self: center;
+    min-width: $general-width;
+    margin: 0 auto;
+    height: 44px;
+}
+.hamb-menu a { 
+    padding: 16px;
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: $bg-hamb;
+    color: $font-color-2;
+    font-family: $font-ibm-plex-mono;
+    
+    &:hover{
+        font-family: $font-ibm-plex-mono;
+        font-size: 16px;
+        color: $font-color-hamb-hov; 
+        letter-spacing: 0;
+        line-height: 28px;
+        text-decoration: line-through;
+    }
+
+    &:active{
+        font-family: $font-ibm-plex-mono;
+        font-size: 16px;
+        color: $font-color-hamb-active;
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+}
+
+.hamb-menu input[type="checkbox"], .hamb-menu .fa-bars, .hamb-menu .fa-times {
+    position: absolute;  
+    right: 10px;
+    top: 10px;
+    width: 24px;
+    height: 24px;  
+    color: $font-color-1;
+}
+
+.hamb-menu .fa-bars, .hamb-menu .fa-times {
+    font-size: 24px;
+    pointer-events: none;
+}
+
+.hamb-menu input[type="checkbox"] {
+    font-size: 24px;
+    opacity: 0; 
+}
+
+.hamb-menu {
+    color: $font-color-1;
+    position: relative; 
+    nav {
+        display: none;
+    }
+}
+
+.hamb-menu input:checked {
+    ~ nav {
+    display: block;
+    }
+    ~ .fa-bars {
+        display: none;
+    }
+}
+
+.hamb-menu input:not(:checked) ~ .fa-times {
+    display: none;
+}
+
+.logo-container{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+//////////////////////////////////////////
+
+
+
+@media screen and (min-width: 730px){
+
+    header{
+        width: 100%;
+        max-width: 1440px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hamb-menu {
+        nav {
+            margin-right: 100px;
+            display: inline;  
+        } 
+    }
+    .hamb-menu i{
+        visibility: hidden;
+    }
+    .hamb-menu ul{ 
+        padding: 0;
+        li{    
+            display: inline-block;
+        }
+    }
+    .hamb-menu a { 
+
+        padding-top: 26px;
+        font-size: 16px;
+        text-decoration: none;
+        color: $font-color-1;
+        font-family: $font-ibm-plex-mono;
+        background-color: white;
+        &:hover{
+            font-family: $font-ibm-plex-mono;
+            font-size: 16px;
+            color: $font-color-hamb-hov; 
+            letter-spacing: 0;
+            line-height: 28px;
+            text-decoration: line-through;
+        }
+    
+        &:active{
+            font-family: $font-ibm-plex-mono;
+            font-size: 16px;
+            color: $font-color-hamb-active;
+            letter-spacing: 0;
+            line-height: 28px;
+        }
+    } 
+    .logo-container{
+        padding-left: 100px;
+        padding-top: 22px;
+        width: 36px;
+        height: 36px;
+        img{
+            width: 36px;
+            height: 36px;
+        }
+    }
+
+
+
+}

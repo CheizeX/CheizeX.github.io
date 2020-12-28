@@ -1,0 +1,36 @@
+%button-shared{
+    margin-bottom: 24px;
+    margin-left: 16px;
+    width: 288px;
+    height: 48px;
+    border: none;
+    background: $bg-button;
+    font-family: $font-ibm-plex-mono;
+    font-size: 18px;
+    font-weight: 400;
+    color: $col-oscuro;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+
+    &:hover{
+        color:$col-claro; 
+        background-image: linear-gradient(225deg, $bg-button-hov-1 0%,  $bg-button-hov-2 100%);
+    }
+}
+
+%headlines{
+    font-family: $font-ibm-plex-sans;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0;
+}
+
+%paragraph{
+    font-family: $font-ibm-plex-mono;
+    font-size: 14px;
+    color: $font-color-1;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
