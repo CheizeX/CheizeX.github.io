@@ -14,7 +14,7 @@
         display: inline;
     }
 
-    #texto-cambia:before{
+    #texto-cambia::before{
         content: "Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días."
     }
 
@@ -70,7 +70,7 @@
         padding-top: 120px;
         padding-left: 200px;
 
-        #texto-cambia:before{
+        #texto-cambia::before{
             content: "El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días."
         }
 
