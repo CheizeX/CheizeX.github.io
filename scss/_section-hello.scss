@@ -1,5 +1,9 @@
 .section-hello{
 
+    #texto-cambia::before{
+        content: "Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días."
+    }
+    
     p{
         @extend %paragraph;
     }
@@ -12,10 +16,6 @@
         @extend %headlines;
         color:$font-color-1;
         display: inline;
-    }
-
-    #texto-cambia::before{
-        content: "Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días."
     }
 
     .h-1{

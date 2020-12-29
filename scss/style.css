@@ -267,13 +267,13 @@ main section {
   }
 }
 
+.section-hello #texto-cambia::before {
+  content: "Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.";
+}
+
 .section-hello h1 {
   color: #060A24;
   display: inline;
-}
-
-.section-hello #texto-cambia::before {
-  content: "Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.";
 }
 
 .section-hello .h-1 {
