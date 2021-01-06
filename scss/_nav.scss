@@ -91,7 +91,7 @@ header{
     }
     .hamb-menu {
         nav {
-            margin-right: 100px;
+            margin-right: 90px;
             display: inline;  
         } 
     }
@@ -99,13 +99,12 @@ header{
         visibility: hidden;
     }
     .hamb-menu ul{ 
-        padding: 0;
-        li{    
+        li{  
+            padding-top: 16px;  
             display: inline-block;
         }
     }
     .hamb-menu a { 
-        padding-top: 26px;
         font-size: 16px;
         text-decoration: none;
         color: $font-color-1;
