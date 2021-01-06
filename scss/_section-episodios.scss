@@ -5,10 +5,20 @@
     flex-direction: column; 
     color: $font-color-2;
 
+    h2{
+        padding: 40px 0 21px 16px;
+    }
     .fondo-azul{
         height: 1203.5px;
         background:linear-gradient(225deg, $bg-gradient-1 0%, $bg-gradient-2 100%);
         clip-path: polygon(0 2.5%, 100% 0%, 100% 97.5%, 0% 100%);
+
+        iframe{
+            padding-left: 11px;
+            margin: 0;
+            width: 298px;
+            height: 235px;
+        }
     }
 }
 

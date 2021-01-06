@@ -16,10 +16,7 @@ header{
     
     &:hover{
         font-family: $font-ibm-plex-mono;
-        font-size: 16px;
         color: $font-color-hamb-hov; 
-        letter-spacing: 0;
-        line-height: 28px;
         text-decoration: line-through;
     }
 
@@ -108,7 +105,6 @@ header{
         }
     }
     .hamb-menu a { 
-
         padding-top: 26px;
         font-size: 16px;
         text-decoration: none;
@@ -116,10 +112,10 @@ header{
         font-family: $font-ibm-plex-mono;
         background-color: white;
         &:hover{
+            padding-top: 0;
             font-family: $font-ibm-plex-mono;
             font-size: 16px;
             color: $font-color-hamb-hov; 
-            letter-spacing: 0;
             line-height: 28px;
             text-decoration: line-through;
         }
