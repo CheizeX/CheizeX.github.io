@@ -673,7 +673,7 @@ iframe {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
           clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
-  width: 320px;
+  width: 322px;
 }
 
 @media screen and (min-width: 730px) {
