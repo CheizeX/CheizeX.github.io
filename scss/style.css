@@ -94,7 +94,6 @@ html {
 }
 
 body {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,6 +103,14 @@ body {
           flex-flow: column;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
+}
+
+@media screen and (min-width: 730px) {
+  body {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 320px;
+  }
 }
 
 header {
@@ -258,7 +265,6 @@ main section {
   main {
     max-width: 1440px;
     min-width: 320px;
-    overflow: hidden;
   }
 }
 
@@ -300,12 +306,6 @@ h2 {
 
 h3 {
   color: #060A24;
-}
-
-iframe {
-  margin-left: 11px;
-  width: 298px;
-  height: 225px;
 }
 
 @media screen and (min-width: 730px) {
