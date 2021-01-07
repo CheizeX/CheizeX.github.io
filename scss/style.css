@@ -320,9 +320,6 @@ h3 {
   .section-hello h1 {
     font-size: 64px;
   }
-  .section-hello .h-3 {
-    display: inline;
-  }
   .section-hello .h-4 {
     color: #0000EC;
   }
