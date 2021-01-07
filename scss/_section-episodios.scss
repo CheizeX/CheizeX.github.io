@@ -1,6 +1,5 @@
 .section-episodios{
-    @extend %headlines; 
-    height: 1203.5px;
+    @extend %headlines;   
     display: flex;
     flex-direction: column; 
     color: $font-color-2;
@@ -9,6 +8,7 @@
         padding: 40px 0 21px 16px;
     }
     .fondo-azul{
+        width: 100.1%;
         height: 1203.5px;
         background:linear-gradient(225deg, $bg-gradient-1 0%, $bg-gradient-2 100%);
         clip-path: polygon(0 2.5%, 100% 0%, 100% 97.5%, 0% 100%);
@@ -27,22 +27,23 @@
 @media screen and (min-width: 730px){
 
     .section-episodios{
-        height: 975px;
+        height: 992px;
         font-size: 48px;
+        display: flex;
+        text-align: center;        
 
         .fondo-azul{  
+            width: 100.1%;
             background:linear-gradient(225deg, $bg-gradient-1 0%, $bg-gradient-2 100%);
             clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
             
             h2{
-                padding-top: 26px;
-                padding-top: 156px;
-                padding-left: 200px;
+                text-align: left;
+                padding: 156px 0 46px 200px;
             }
             
             iframe{
-                padding-left: 72px;
-                padding-bottom:72px;
+                padding:0 2% 5% 2%;
                 width: 584px;
                 height: 232px;
             }

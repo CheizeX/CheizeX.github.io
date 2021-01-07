@@ -43,7 +43,7 @@
 
         .h-container{
             width: 399px;
-            transform: translate(240px, 60px);
+            transform: translate(330px, 40px);
             
             h3{
                 font-size: 48px;
@@ -51,22 +51,22 @@
         }
 
         .p-container{
-            transform: translate(-160px, 130px);
+            transform: translate(-65px, 100px);
             
             p{
                 width: 464px;
                 height: 204px;
-                font-size: 16px;
+                font-size: 1rem;
             }
         }
 
         .img-phone{
-            width: 458px;
-            height: 660px;
+            width: 23rem;
+            height: 39.25rem;
         }
 
         .phone {
-            transform: translate(180px, -140px);
+            transform: translate(200px, -140px);
         }
     }
 }

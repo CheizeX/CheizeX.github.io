@@ -330,7 +330,6 @@ h3 {
 }
 
 .section-episodios {
-  height: 1203.5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,6 +345,7 @@ h3 {
 }
 
 .section-episodios .fondo-azul {
+  width: 100.1%;
   height: 1203.5px;
   background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   -webkit-clip-path: polygon(0 2.5%, 100% 0%, 100% 97.5%, 0% 100%);
@@ -361,22 +361,25 @@ h3 {
 
 @media screen and (min-width: 730px) {
   .section-episodios {
-    height: 975px;
+    height: 992px;
     font-size: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
   }
   .section-episodios .fondo-azul {
+    width: 100.1%;
     background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
             clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
   }
   .section-episodios .fondo-azul h2 {
-    padding-top: 26px;
-    padding-top: 156px;
-    padding-left: 200px;
+    text-align: left;
+    padding: 156px 0 46px 200px;
   }
   .section-episodios .fondo-azul iframe {
-    padding-left: 72px;
-    padding-bottom: 72px;
+    padding: 0 2% 5% 2%;
     width: 584px;
     height: 232px;
   }
@@ -422,28 +425,28 @@ h3 {
   }
   .section-venimos .h-container {
     width: 399px;
-    -webkit-transform: translate(240px, 60px);
-            transform: translate(240px, 60px);
+    -webkit-transform: translate(330px, 40px);
+            transform: translate(330px, 40px);
   }
   .section-venimos .h-container h3 {
     font-size: 48px;
   }
   .section-venimos .p-container {
-    -webkit-transform: translate(-160px, 130px);
-            transform: translate(-160px, 130px);
+    -webkit-transform: translate(-65px, 100px);
+            transform: translate(-65px, 100px);
   }
   .section-venimos .p-container p {
     width: 464px;
     height: 204px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   .section-venimos .img-phone {
-    width: 458px;
-    height: 660px;
+    width: 23rem;
+    height: 39.25rem;
   }
   .section-venimos .phone {
-    -webkit-transform: translate(180px, -140px);
-            transform: translate(180px, -140px);
+    -webkit-transform: translate(200px, -140px);
+            transform: translate(200px, -140px);
   }
 }
 
@@ -470,9 +473,11 @@ h3 {
 }
 
 @media screen and (min-width: 730px) {
+  .section-estelares {
+    padding-top: 50px;
+  }
   .section-estelares h4 {
     padding-left: 200px;
-    padding-top: 64px;
     padding-bottom: 36px;
     font-size: 48px;
   }
@@ -766,6 +771,7 @@ footer .div-a i:hover {
     margin: 0 auto;
     position: relative;
     width: 1440px;
+    height: 95px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -780,7 +786,7 @@ footer .div-a i:hover {
     padding-left: 100px;
   }
   footer .div-a {
-    padding-right: 100px;
+    padding-right: 110px;
     font-size: 18px;
   }
   footer p {
